@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+    <div id="info">
+      <h1>Welcome to Coins Game</h1>
+      <div id="instructions">
+        <ul>
+          <li>There will be a robot by which you will be collecting coins.</li>
+          <li>There will be both positive and negative coins.</li>
+          <li>
+            Positive and negative coins are of yellow and black color respectively.
+          </li>
+          <li>Postive coins = +1, Negative coins = -1.</li>
+          <li>There will be a time limit of 2 minutes.</li>
+          <li>Both the time limit and score will be displayed on the screen.</li>
+          <li>Right SelectStart of controller - Forward</li>
+          <li>Left SelectStart of controller - Backward</li>
+          <li>Right SqueezeStart of controller - Right</li>
+          <li>Left SqueezeStart of controller - Left</li>
+        </ul>
+      </div>
+      <button id="startButton">Click to play</button>
+    </div>
+    <script type="module" src="./main.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/23.1.1/tween.umd.js"
+      integrity="sha512-J8rv5Qz++2kwDP7YUBqxm3LCtPXWghcqXvxPrLrk81E31eMA/tEAjKakXJJDQoy9tj+41+EDYDsD6Xc76lnT7w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
